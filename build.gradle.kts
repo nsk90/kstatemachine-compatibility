@@ -12,9 +12,9 @@ repositories {
 }
 
 dependencies {
-    //implementation(fileTree("libs") { include("*.jar") })
+    implementation(fileTree("libs") { include("*.jar") })
     testImplementation(kotlin("test"))
-    implementation("io.github.nsk90:kstatemachine:0.14.0")
+    //implementation("io.github.nsk90:kstatemachine:0.14.0")
 }
 
 tasks.test {
